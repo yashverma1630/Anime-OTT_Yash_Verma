@@ -1,0 +1,285 @@
+.Main-Div{
+    background-image: url('/HD-wallpaper-anime-love-couple-ocean-sunrise.jpg');
+    background-size: cover; /* Makes the image cover the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    position: absolute; /* Ensures it can cover the viewport */
+    top: 0; /* Aligns it to the top */
+    left: 0; /* Aligns it to the left */
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    /* gap:10px; */
+}
+
+.Login-Box{
+    height: 430px;
+    width: 280px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border:1px solid;
+    border-radius:30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Adds shadow for 3D effect */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition */
+}
+
+/* .Login-Box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+} */
+
+
+
+.Heading-Box1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5) ;
+    width:85%;
+    height:40px;
+    margin-top:25px;
+}
+
+.Heading-Box2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5) ;
+    width:85%;
+    height:40px;
+    margin-bottom:15px;
+}
+
+.Heading-Box2 p{
+    margin:2px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.Heading-Anime{
+    color: white;
+    font-size: 40px;
+    text-shadow: 
+        1px 1px 0px black,   /* Right-down shadow */
+        -1px -1px 0px black, /* Left-up shadow */
+        1px -1px 0px black,  /* Right-up shadow */
+        -1px 1px 0px black;  /* Left-down shadow */;
+        margin:0;
+}
+
+.Top-Link{
+    color:rgb(48, 48, 48);
+    font-weight: 650;
+    text-decoration: underline;
+}
+.Top-Link:hover{
+    color:rgb(48, 48, 48);
+}
+
+.Login-Heading{
+    font-size:20px;
+    font-weight:bolder;
+    color:rgb(226, 45, 82);
+    margin:0;
+    margin-top:18px;
+
+}
+
+.Terms-Conditions{
+    margin:0;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+.T-C{
+    color:white;
+    text-decoration: underline;
+}
+
+.T-C:hover{
+    color:rgb(226, 44, 80);
+}
+
+.Login-Register{
+    margin:0;
+    margin-top: 10px;
+}
+
+.Login-Title1{
+    margin-right:18px;
+    color: black;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.Register-Title1{
+    margin-Left:18px;
+    color:whitesmoke;
+}
+
+.Register-Title1:hover{
+    color:rgb(226, 44, 80);
+}
+
+.Email-Box{
+    margin:0;
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Email-Underline{
+    border-bottom: 1.8px solid black; /* Adjust thickness and color */
+    padding-bottom: 2.5px; /* Optional: space between text and the underline */
+    width:203px;
+}
+
+.Email{
+    font-size:15px;
+    border: none;
+    background: none;
+    outline:none;
+    
+}
+.Password-Box{
+    margin:0;
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Password-Underline{
+    border-bottom: 1.8px solid black; /* Adjust thickness and color */
+    padding-bottom: 2.5px; /* Optional: space between text and the underline */
+    width:203px;
+    margin-left:16px;
+}
+
+.Password{
+    font-size:15px;
+    border: none;
+    background: none;
+    outline:none;
+    
+}
+
+input::placeholder{
+    color:rgb(52, 51, 51);
+}
+
+.Remember-Password{
+    color: black;
+    font-size: 12px;
+    font-weight:500;
+    margin-right: 5px;
+}
+
+.Forget-Password{
+    font-style:normal;
+    color:black;
+    font-size:12px;
+    margin-left: 5px;
+}
+.Forget-Password:hover{
+    color: rgb(226, 44, 80);
+}
+
+.Checkpoint{
+    margin-top: 6px;
+}
+.Login-Button-Box{
+    margin-top:15px;
+}
+
+.Login-Button{
+    width:160px;
+    height:32.5px;
+    background-color: rgb(226, 44, 80);
+    border:none;
+    color:white;
+    border-radius:8px;
+    transition: transform 0.2s ease; /* Smooth transition */
+}
+
+.Login-Button:hover {
+    transform: scale(1.05); /* Scale the button to 105% */
+}
+
+.Or-Connect-With{
+    margin:0;
+    margin-top: 2px;
+}
+
+.facebook-img{
+    height:35px;
+    width:35px;
+    transition: transform 0.3s ease;
+}
+
+.facebook-img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.instagram-img{
+    height:35px;
+    width:35px;
+    transition: transform 0.3s ease;
+}
+
+.instagram-img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.pinterest-img{
+    height:35px;
+    width:35px;
+    transition: transform 0.3s ease;
+}
+
+.pinterest-img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.linkedin-img{
+    height:35px;
+    width:35px;
+    transition: transform 0.3s ease;
+}
+
+.linkedin-img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.logo-box {
+    display: flex; /* Use Flexbox layout */
+    gap: 1px; /* Optional: Adds space between items */
+    align-items: center; /* Optional: Vertically center items */
+    justify-content: center;
+    margin-top:5px;
+  }
+
+  /* Register Styling */
+
+.Login-Title2{
+    margin-Right:18px;
+    color:whitesmoke;
+}
+
+.Login-Title2:hover{
+    color:rgb(226, 44, 80);
+}
+
+.Register-Title2{
+    margin-Left:18px;
+    color: black;
+    text-decoration: underline;
+    text-underline-position: under;
+}
