@@ -142,7 +142,7 @@
     border: none;
     background: none;
     outline:none;
-    
+    color:black;
 }
 .Password-Box{
     margin:0;
@@ -164,6 +164,7 @@
     border: none;
     background: none;
     outline:none;
+    color:black;
     
 }
 
@@ -282,4 +283,8 @@ input::placeholder{
     color: black;
     text-decoration: underline;
     text-underline-position: under;
+}
+
+.FaUserSecret, .FaUser, .FaLock, .CiRead {
+    color:black;
 }

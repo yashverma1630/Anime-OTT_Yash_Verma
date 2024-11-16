@@ -41,22 +41,22 @@ const LoginRegister = () => {
           <div>
           <p className='Email-Box'>
             <div className='Email-Underline'>
-            <FaUserSecret />
+            <FaUserSecret className='FaUserSecret'/>
             <input type="Username" name="Email" id="Email" placeholder="Enter Username" required className='Email'/>
             </div>
             </p>
           <p className='Email-Box'>
             <div className='Email-Underline'>
-            <FaUser />
+            <FaUser className='FaUser'/>
             <input type="email" name="Email" id="Email" placeholder="Enter Email" required className='Email'/>
             </div>
             </p>
           <p className='Password-Box'>
             <div className='Password-Underline'>
-            <FaLock />
+            <FaLock className='FaLock'/>
             <input type={showPassword ? "text":"password"} name="Password" id="Password" placeholder="Enter Password" required className='Password'/>
             </div>
-            <CiRead onClick={togglePasswordVisibility} style={{ cursor: 'pointer' }}/>
+            <CiRead onClick={togglePasswordVisibility} style={{ cursor: 'pointer' }} className='CiRead'/>
             </p>
           </div>
           <div className="Checkpoint">
@@ -81,16 +81,16 @@ const LoginRegister = () => {
           <div>
           <p className='Email-Box'>
             <div className='Email-Underline'>
-            <FaUser />
+            <FaUser className='FaUser'/>
             <input type="email" name="Email" id="Email" placeholder="Enter Email" required className='Email'/>
             </div>
             </p>
           <p className='Password-Box'>
             <div className='Password-Underline'>
-            <FaLock />
+            <FaLock className='FaLock' />
             <input type={showPassword ? "text":"password"} name="Password" id="Password" placeholder="Enter Password" required className='Password'/>
             </div>
-            <CiRead onClick={togglePasswordVisibility} style={{ cursor: 'pointer' }}/>
+            <CiRead onClick={togglePasswordVisibility} style={{ cursor: 'pointer' }} className='CiRead'/>
             </p>
           </div>
           <div className="Checkpoint">
